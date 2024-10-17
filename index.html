@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahuel | Dev.</title>
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"/>
+    <script src="https://kit.fontawesome.com/f570856479.js" crossorigin="anonymous"></script>
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>
+
+<body>
+    <!-- Sección del Menú  -->
+    <section class="menu">
+        <div class="menu__container container">
+            <div class="menu__header">
+                <h3 class="menu__title"><i class="fa-solid fa-laptop-code"></i> Nahuel  Dev</h3> <!-- 💻🖥🖱💽💾 -->
+            </div>
+            <nav class="menu__nav">
+                <ul class="menu__list">
+                    <li class="menu__list__item"><a href="#inicio" active>HOME</a></li>
+                    <li class="menu__list__item"><a href="#sobre-mi">ABOUT ME</a></li>
+                    <li class="menu__list__item"><a href="#skills">SKILLS</a></li>
+                    <li class="menu__list__item"><a href="#contacto">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="menu__burguer">
+                <i class="bi bi-list menu__icon-burguer"></i>
+                <i class="bi bi-x menu__icon-x menu_hidden"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección del Header/Title/Hero -->
+    <section class="title container" id="inicio">
+        <div class="title__div">
+            <div class="title__container">
+                <h3 class="title__hello animate__animated animate__flipInX">Hola! 👋 Me llamo...</h3>
+                <hr class="divider">
+                <h1 class="title__name animate__animated animate__flipInX animate__delay-1s">Nahuel Jonathan Vargas</h1>
+                <h2 class="title__rol animate__animated animate__flipInX animate__delay-1s"> < Dev Web Frontend - HTML, CSS and JS /></h2>
+                <p class="title__description medium-font animate__animated animate__flipInX animate__delay-2s">Entra en mi portfolio online para descubrir mis proyectos y conocer más sobre mis habilidades como desarrollador web. ¡Comencemos! 🚀</p>            </p>
+                <ul class="title__network animate__animated animate__flipInX animate__delay-2s">
+                    <li class="title__network__item"><a href="https://github.com/" target="_blank"><i class="bi bi-github"></i> </a></li>
+                </ul>
+            </div>
+            <div class="title__lottie animate__animated animate__fadeIn animate__delay-3s">
+                <lottie-player class="title__lottie-man" src="https://assets2.lottiefiles.com/packages/lf20_le0m7wa9.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop autoplay></lottie-player>
+            </div>
+        </div>
+        <a class="title_mouse" href="#sobre-mi">
+            <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_onc0p4sf.json"  background="transparent"  speed="1"  style="width: 35px; height: 35px;"  loop autoplay></lottie-player>
+            Leer más</h4>
+            <i class="bi bi-chevron-down"></i>
+        </a>
+    </section>
+
+    <div class="spacer space-bottom"></div>
+    
+    <!-- Sección sobre mi -->
+    <section class="about" id="sobre-mi">
+        <div class="about__container container">
+            <h4 class="about__title">ABOUT ME</h4>
+            <h2>Apasionado por las nuevas tecnologías, autodidacta, proactivo y perseverante ante los retos..</h2>
+            <div class="about__column">
+                <div class="blob"></div>
+                <div class="about__text">
+                    <p class="medium-font">Soy Nahuel, un apasionado autodidacta de las nuevas tecnologías, proactivo, responsable y con iniciativa. Cuento con excelentes habilidades de comunicación y liderazgo. Actualmente resido en Argentina y disfruto cada momento creando, diseñando y desarrollando sitios web y aplicaciones.</p><br>
+                    
+                    <p class="medium-font">He tenido el privilegio de trabajar en varias áreas de negocio y en empresas reconocidas como Stellantis, lo que me ha permitido desarrollar la habilidad de entender los requisitos de los clientes y traducirlos en proyectos con altos estándares de calidad.</p><br>
+                    
+                    <p class="medium-font">Mi experiencia abarca el desarrollo front-end utilizando tecnologías como HTML, CSS, JavaScript, entre otras, y desarrollo back-end principalmente con tecnologías como Node.js, Python y Django.</p><br>
+                    
+                    <p class="medium-font">A lo largo de mi carrera, he adquirido valiosos conocimientos e ideas que me han permitido crecer en el mundo de la tecnología.</p><br>
+                    
+                    <p class="medium-font">¡Vamos, exploremos mi trabajo juntos! 😃</p><br><br>
+                    
+                    <a class="about__button button" href="#xp">Portafolio <i class="bi bi-send button-icon"></i></a>
+                    
+                </div>
+            </div>
+            <div class="about__features"></div>
+        </div>
+    </section>
+
+    <div class="spacer space-top"></div>
+
+    <!-- Sección de Skills -->
+    <section class="skills container" id="skills">
+        <h4 class="skills__title">SKILLS</h4>
+        <div class="skills__column">
+
+            <div class="skills__hard-skills">
+                <h2 class="skills-subtitle">Hard Skills</h2>
+                <div class="skills-cards" id="hard-skills">
+                    <div class="skill-box">
+                        <i class="fa-brands fa-html5 skill-icon"></i>
+                        <h5 class="skill-text">HTML</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-css3-alt skill-icon"></i>
+                        <h5 class="skill-text">CSS</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-js-square skill-icon"></i>
+                        <h5 class="skill-text">JAVASCRIPT</h5>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="skills__soft-skills">
+                <h2 class="skills-subtitle">Soft Skills</h2>
+                <div class="skills-cards">
+                    <div class="skill-box">
+                        <i class="fa-solid fa-book skill-icon"></i>
+                        <h5 class="skill-text">Self-taught</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-paintbrush skill-icon"></i>
+                        <h5 class="skill-text">Creative</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-file skill-icon"></i>
+                        <h5 class="skill-text">Commitment</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-brain skill-icon"></i>
+                        <h5 class="skill-text">Growth mindset</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-child-reaching skill-icon"></i>
+                        <h5 class="skill-text">Leadership</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-people-group skill-icon"></i>
+                        <h5 class="skill-text">Teamwork</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-comment skill-icon"></i>
+                        <h5 class="skill-text">Communication</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-chart-line skill-icon"></i>
+                        <h5 class="skill-text">Proactive</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-dumbbell skill-icon"></i>
+                        <h5 class="skill-text">Resilience</h5>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-hand-holding-hand skill-icon"></i>
+                        <h5 class="skill-text">Empathy</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="spacer space-bottom"></div>
+
+
+    <!-- Sección de Contacto -->
+    <section class="formcontato container" id="contacto">
+        <div  class="formcontato__contacto">
+            <h4 class="formcontato__title">Contact</h4>
+            <h2 class="formcontato__subtext">Let's work together</h2>
+            <h3 class="formcontato__subtext">Complete the following form to get in touch</h3>
+            <form class="formcontato__form" name="form" action="#" method="POST">
+                <!--  -->
+
+                <label id="name-label" class="formcontato__label field_ok" for="name">
+                    <p class="formcontato__description">Name:</p>
+                    <input class="formcontato__input" id="name" type="text" name="name" autocomplete="off" data-valid="false">
+                    <p id="name-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="email-label" class="formcontato__label field_ok" for="email">
+                    <p class="formcontato__description">Email:</p>
+                    <input class="formcontato__input" id="email" type="email" name="email" autocomplete="off" data-valid="false">
+                    <p id="email-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="subject-label" class="formcontato__label field_ok" for="subject">
+                    <p class="formcontato__description">Subject:</p>
+                    <input class="formcontato__input" id="subject" type="text" name="subject" autocomplete="off" data-valid="false">
+                    <p id="subject-error" class="formcontato__error-message"></p>
+                </label>
+
+                <label id="message-label" class="formcontato__label field_ok" for="message">
+                    <p class="formcontato__description">Message:</p>
+                    <textarea class="formcontato__input" rows="5" cols="40" id="message" name="message" autocomplete="off" data-valid="false"></textarea>
+                    <p id="message-error" class="formcontato__error-message little-font"></p>
+                </label>
+
+                <button type="submit" id="submit_button" class="formcontato__button button" disabled>Send message <i class="bi bi-send button-icon"></i></button>
+
+            </form>
+        </div>
+    </section>
+
+    <div class="spacer space-bottom"></div>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__container container">
+            <h3>Nahuel Jonathan Vargas</h3>
+            <ul class="title__network">
+                <li class="title__network__item"><a href="https://github.com" target="_blank"><i class="bi bi-github "></i> </a></li>
+            </ul>
+            <p><i class="fa-solid fa-laptop-code"></i> | Nahuel Dev</p>
+        </div>
+    </section>
+
+ <!-- Script del documento JavaScript -->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="./js/form-validations.js"></script>
+<script src="./js/nav.js"></script>
+<script src="./js/scripts.js"></script>
+</body>
+</html>
